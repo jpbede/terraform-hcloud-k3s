@@ -44,7 +44,7 @@ module "node_group" {
   datacenter   = var.datacenter
   image        = var.image
   ssh_keys     = var.ssh_keys
-  master_ipv4  = module.master.master_ipv4
+  internal_address  = module.master.internal_address
 
   hcloud_subnet_id = hcloud_network_subnet.subnet.id
 
