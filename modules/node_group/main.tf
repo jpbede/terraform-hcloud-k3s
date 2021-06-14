@@ -4,7 +4,7 @@ data "template_file" "node_init" {
     k3s_token   = var.k3s_token
     k3s_channel = var.k3s_channel
 
-    master_ipv4 = var.master_ipv4
+    master_ipv4 = var.internal_address
   }
 }
 
