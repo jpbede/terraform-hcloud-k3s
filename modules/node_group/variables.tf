@@ -36,7 +36,7 @@ variable "k3s_channel" {
   default     = "stable"
 }
 
-variable "master_ipv4" {
+variable "internal_address" {
   description = "IP address (v4) of master node"
 }
 
